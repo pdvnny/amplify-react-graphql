@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 // Configure Amplify Resources with React frontend
 import { Amplify } from 'aws-amplify';
-import config from './aws-exports';
+// import config from './aws-exports';
+import config from './amplifyconfiguration.json'
 
 Amplify.configure(config);
 
